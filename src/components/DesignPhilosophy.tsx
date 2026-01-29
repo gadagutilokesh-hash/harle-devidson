@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function DesignPhilosophy() {
     const principles = [
         "Motorsport DNA",
@@ -22,7 +24,7 @@ export default function DesignPhilosophy() {
                 <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <div className="lg:col-span-2 border border-white/10 rounded-xl overflow-hidden bg-engine-steel">
                         <img
-                            src="/images/design/image1.jpg"
+                            src={`${basePath}/images/design/image1.jpg`}
                             alt="Side profile visual"
                             className="w-full h-full object-cover"
                         />
@@ -47,21 +49,21 @@ export default function DesignPhilosophy() {
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="border border-white/10 rounded-xl overflow-hidden bg-engine-steel">
                         <img
-                            src="/images/design/image2.jpg"
+                            src={`${basePath}/images/design/image2.jpg`}
                             alt="Isometric angle visual"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="border border-white/10 rounded-xl overflow-hidden bg-engine-steel">
                         <img
-                            src="/images/design/image3.jpg"
+                            src={`${basePath}/images/design/image3.jpg`}
                             alt="Engineering detail visual"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="border border-white/10 rounded-xl overflow-hidden bg-engine-steel">
                         <img
-                            src="/images/design/image4.jpg"
+                            src={`${basePath}/images/design/image4.jpg`}
                             alt="Design detail visual"
                             className="w-full h-full object-cover"
                         />

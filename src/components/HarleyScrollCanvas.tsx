@@ -25,10 +25,12 @@ function mechanicalEasing(progress: number): number {
     return Math.max(0, Math.min(1, progress));
 }
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function HarleyScrollCanvas({
     scrollYProgress,
     totalFrames = 238,
-    imageFolderPath = "/images/harley-sequence",
+    imageFolderPath = `${basePath}/images/harley-sequence`,
     colorFilter = "none",
 }: HarleyScrollCanvasProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
