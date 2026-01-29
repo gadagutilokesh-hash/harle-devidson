@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" fill="none">
+  <rect width="1400" height="800" fill="#0B0B0B"/>
+  <rect x="120" y="140" width="1160" height="520" rx="24" fill="#151515" stroke="#2A2A2A"/>
+  <path d="M420 520 L720 380 L980 500" stroke="#FF6A00" stroke-width="4" fill="none"/>
+  <circle cx="520" cy="520" r="64" stroke="#2A2A2A" stroke-width="12" fill="#0F0F0F"/>
+  <circle cx="940" cy="520" r="64" stroke="#2A2A2A" stroke-width="12" fill="#0F0F0F"/>
+  <rect x="640" y="360" width="200" height="60" rx="12" fill="#1A1A1A" stroke="#2A2A2A"/>
+  <text x="140" y="120" font-family="Arial, sans-serif" font-size="14" fill="#6B7280" letter-spacing="6">ISOMETRIC</text>
+</svg>

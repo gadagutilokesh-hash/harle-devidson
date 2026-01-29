@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" fill="none">
+  <rect width="1400" height="800" fill="#0B0B0B"/>
+  <rect x="60" y="160" width="1280" height="480" rx="24" fill="#131313" stroke="#2A2A2A"/>
+  <path d="M220 520 C360 420, 520 380, 720 380 C920 380, 1040 430, 1180 520" stroke="#FF6A00" stroke-width="4" fill="none"/>
+  <circle cx="420" cy="520" r="70" stroke="#2A2A2A" stroke-width="12" fill="#0F0F0F"/>
+  <circle cx="980" cy="520" r="70" stroke="#2A2A2A" stroke-width="12" fill="#0F0F0F"/>
+  <rect x="620" y="360" width="200" height="60" rx="12" fill="#1A1A1A" stroke="#2A2A2A"/>
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="14" fill="#6B7280" letter-spacing="6">SIDE PROFILE</text>
+</svg>
